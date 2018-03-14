@@ -8,7 +8,7 @@ def prime?(the_number)
   until divisor * divisor > the_number
     false if the_number % divisor == 0
     # next prime is 6k + 1 or 6k - 1
-    if (divisor + 1) % 6 == 0 ? divisor += 2 : divisor += 4 end
+    if (divisor + 1) % 6 == 0 ? divisor += 2 : divisor += 4
   end
   true
 end
