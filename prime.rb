@@ -11,4 +11,5 @@ def prime?(the_number)
     if (divisor + 1) % 6 == 0 ? divisor += 2 : divisor += 4
   end
 end
+true
 end
